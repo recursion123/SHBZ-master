@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请横屏拍摄"
+            android:textColor="@color/apptheme_primary"
+            android:textSize="35dp" />
+    </LinearLayout>
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+        android:id="@+id/loading"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@color/apptheme_primary" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/start"
+            android:layout_gravity="bottom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:layout_marginBottom="30dp"
+            android:text="开始" />
+
+        <Button
+            android:id="@+id/retake_video"
+            android:layout_gravity="bottom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:visibility="gone"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"
+            android:text="重拍" />
+
+        <Button
+            android:id="@+id/upload_video"
+            android:layout_gravity="bottom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:visibility="gone"
+            android:layout_marginBottom="30dp"
+            android:text="上传" />
+    </LinearLayout>
+</RelativeLayout>

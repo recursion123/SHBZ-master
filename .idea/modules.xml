@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidBootstrap/AndroidBootstrap.iml" filepath="$PROJECT_DIR$/AndroidBootstrap/AndroidBootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SHBZ-master.iml" filepath="$PROJECT_DIR$/SHBZ-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gallerylibrary/gallerylibrary.iml" filepath="$PROJECT_DIR$/gallerylibrary/gallerylibrary.iml" />
+    </modules>
+  </component>
+</project>

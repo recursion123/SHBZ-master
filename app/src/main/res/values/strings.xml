@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="app_name">社保支出监管平台</string>
+    <string name="search">请输入要查询的身份证号</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/login">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/title"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="100dp"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="用户名"
+        android:text=""
+        android:singleLine="true"
+        bootstrapbutton:be_roundedCorners="true"
+        bootstrapbutton:be_state="success"
+        android:gravity="left" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:id="@+id/password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="密码"
+        android:text=""
+        android:singleLine="true"
+        android:inputType="textPassword"
+        bootstrapbutton:be_roundedCorners="true"
+        bootstrapbutton:be_state="success"
+        android:gravity="left" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/loginBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="登录"
+        bootstrapbutton:bb_roundedCorners="true"
+        bootstrapbutton:bb_size="small"
+        bootstrapbutton:bb_type="success" />
+
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+        android:id="@+id/loading"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:background="@color/apptheme_primary" />
+</LinearLayout>
